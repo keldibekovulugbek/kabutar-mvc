@@ -1,4 +1,4 @@
-﻿using Kabutar.Data.Common;
+﻿using Kabutar.Application.Utils;
 using Kabutar.Domain.Common;
 
 namespace Kabutar.Data.Common.Interfaces
