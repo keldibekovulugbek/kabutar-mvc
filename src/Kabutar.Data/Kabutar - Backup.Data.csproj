@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DbContexts\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Interfaces\" /><Folder Include="Interfaces\" />
+  
+	  <Folder Include="Interfaces\" />
+<Folder Include="Interfaces\" />
+  
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kabutar.Domen\Kabutar.Domen.csproj" />
+  </ItemGroup>
+
+</Project>

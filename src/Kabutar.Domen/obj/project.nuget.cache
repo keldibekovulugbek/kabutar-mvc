@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "XJr/pfYlc0PUIULLOgfWo3MYekDXiMxcVVYFE2VwRiK9MWR8VQ9dNSNsXslqT6nS5DWrWUGsOtDNkq3ktMhsjA==",
+  "success": true,
+  "projectFilePath": "G:\\Development\\MVC-projects\\kabutar-mvc\\src\\Kabutar.Domen\\Kabutar.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\keldi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\keldi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\keldi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

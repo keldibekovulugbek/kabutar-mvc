@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jk9/sQMy4lNVlgBTiNAroA/f/NzPmjWrudDuzDIc+VGpdWSHKQa5t5RFem0P7KbPr2bH+hAZy/KCOL5QJVwzqg==",
+  "success": true,
+  "projectFilePath": "G:\\Development\\MVC-projects\\kabutar-mvc\\src\\Kabutar.Application\\Kabutar.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\keldi\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\keldi\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\keldi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\keldi\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\keldi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\keldi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\keldi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
