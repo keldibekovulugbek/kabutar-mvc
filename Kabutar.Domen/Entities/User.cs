@@ -13,7 +13,7 @@ public class User : Auditable
     public string LastName { get; set; } = String.Empty;
 
     [Column("username")]
-    public string? Username { get; set; }
+    public string Username { get; set; } = String.Empty;
 
     [Column("image_path")]
     public string ImagePath { get; set; } = String.Empty;

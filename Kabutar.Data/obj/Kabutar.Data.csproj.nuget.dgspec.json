@@ -32,7 +32,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "G:\\Development\\MVC-projects\\kabutar-mvc\\Kabutar.Domen\\Kabutar.Domain.csproj": {
+                "projectPath": "G:\\Development\\MVC-projects\\kabutar-mvc\\Kabutar.Domen\\Kabutar.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

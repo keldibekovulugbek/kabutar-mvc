@@ -17,5 +17,5 @@ public class Blog : Auditable
 
     [Column("user_id")]
     public long UserId { get; set; }
-    public virtual User User { get; set; } = null!;
+    public virtual User Author { get; set; } = null!;
 }

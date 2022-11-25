@@ -57,6 +57,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Kabutar.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Kabutar.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kabutar.Domain.dll": {}
+        }
       }
     }
   },
@@ -154,10 +164,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Kabutar.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Kabutar.Domen/Kabutar.Domain.csproj",
+      "msbuildProject": "../Kabutar.Domen/Kabutar.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Kabutar.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Http.Features >= 5.0.17",
       "Newtonsoft.Json >= 13.0.1"
     ]
@@ -194,7 +210,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\Development\\MVC-projects\\kabutar-mvc\\Kabutar.Domen\\Kabutar.Domain.csproj": {
+              "projectPath": "G:\\Development\\MVC-projects\\kabutar-mvc\\Kabutar.Domen\\Kabutar.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -10,6 +10,6 @@
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 	</ItemGroup>
 	<ItemGroup>
-	  <Folder Include="ViewModels\BlogViewModels\" />
+	  <ProjectReference Include="..\Kabutar.Domen\Kabutar.Domain.csproj" />
 	</ItemGroup>
 </Project>
