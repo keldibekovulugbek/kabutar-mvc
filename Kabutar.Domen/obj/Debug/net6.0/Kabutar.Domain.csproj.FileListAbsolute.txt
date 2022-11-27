@@ -1,0 +1,12 @@
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\bin\Debug\net6.0\Kabutar.Domain.deps.json
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\bin\Debug\net6.0\Kabutar.Domain.dll
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\bin\Debug\net6.0\Kabutar.Domain.pdb
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\obj\Debug\net6.0\Kabutar.Domain.csproj.AssemblyReference.cache
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\obj\Debug\net6.0\Kabutar.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\obj\Debug\net6.0\Kabutar.Domain.AssemblyInfoInputs.cache
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\obj\Debug\net6.0\Kabutar.Domain.AssemblyInfo.cs
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\obj\Debug\net6.0\Kabutar.Domain.csproj.CoreCompileInputs.cache
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\obj\Debug\net6.0\Kabutar.Domain.dll
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\obj\Debug\net6.0\refint\Kabutar.Domain.dll
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\obj\Debug\net6.0\Kabutar.Domain.pdb
+G:\Development\MVC-projects\kabutar-mvc\Kabutar.Domen\obj\Debug\net6.0\ref\Kabutar.Domain.dll

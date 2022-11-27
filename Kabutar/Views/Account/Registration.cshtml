@@ -1,0 +1,48 @@
+﻿@using Kabutar.Service.Dtos;
+@model AccountCreateDto
+<h1>Registration</h1>
+<div>
+    <form asp-controller="Account" asp-action="Registr" method="post" enctype="multipart/form-data">
+        <div class="container"> 
+            <div class="form-data" style="margin-top:20px">
+                <h4 for="comment" asp-for="Firstname" >Firstname</h4>
+                <input asp-for="Firstname" class="form-control" type="text" required/>
+            </div>
+            <div class="form-data" style="margin-top:20px">
+                <h4 for="comment" asp-for="Lastname">Lastname</h4>
+                <input asp-for="Lastname" class="form-control" type="text" required />
+            </div>
+            <div class="form-data" style="margin-top:20px">
+                <h4 for="comment" asp-for="Email">Email</h4>
+                <input asp-for="Email" class="form-control" type="text" required />
+            </div>
+            <div class="form-data" style="margin-top:20px">
+                <h4 for="comment" asp-for="PhoneNumber">Phone</h4>
+                <input asp-for="PhoneNumber" class="form-control" type="tel" required />
+            </div>
+            <div class="form-data" style="margin-top:20px">
+                <h4 for="comment" asp-for="Username">Username</h4>
+                <input asp-for="Username" class="form-control" type="text" required />
+            </div>
+            <div class="row mt-2" style="margin-top:20px">
+                <div class="col-12">
+                    <label class="col-form-label">Select File</label>
+                    <input asp-for="Image" class="form-control" />
+                    <span asp-validation-for="Image" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-data" style="margin-top:20px">
+                <h5 for="comment" asp-for="Password">Password</h5>
+                <input asp-for="Password" class="form-control" type="password" required />
+            </div>
+            <div class="form-data" style="margin-top:20px">
+                <h4 for="comment" asp-for="ConfirmPassword">Confirm password</h4>
+                <input asp-for="ConfirmPassword" class="form-control" type="password" required />
+            </div>
+            <div>
+                <input type="submit" class="btn btn-success" Value="Registr" asp-controller="Account" asp-action="Registr">
+                <input type="submit" class="btn btn-danger" Value="Cancel" asp-controller="Home" asp-action="Index">
+            </div>
+        </div>  
+    </form>
+</div>

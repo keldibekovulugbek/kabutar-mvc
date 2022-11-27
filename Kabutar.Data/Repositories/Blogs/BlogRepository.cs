@@ -17,13 +17,13 @@ public class BlogRepository : GenericRepository<Blog>, IBlogRepository
 
     }
 
-    
 
-   
+
+
     public async Task<PagedList<Blog>> SearchAsync(string text, PaginationParams @params)
-        => (await PagedList<Blog>.ToPagedListAsync(_dbSet.Where(p=> p.Title.Contains(text) || p.Description.Contains(text) ), @params.PageNumber, @params.PageSize))
+        => (await PagedList<Blog>.ToPagedListAsync(_dbSet.Where(p => p.Title.Contains(text) || p.Description.Contains(text)), @params.PageNumber, @params.PageSize));
 
     public async Task<PagedList<Blog>> SearchByTitleAsync(string text, PaginationParams @params)
-        =>(await PagedList<Blog>.ToPagedListAsync(_dbSet.Where(p=> p.Title.Contains(text)), @params.PageNumber, @params.PageSize))
+        => (await PagedList<Blog>.ToPagedListAsync(_dbSet.Where(p => p.Title.Contains(text)), @params.PageNumber, @params.PageSize));
 
 }

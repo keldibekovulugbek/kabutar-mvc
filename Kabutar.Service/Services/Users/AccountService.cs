@@ -73,8 +73,8 @@ public class AccountService : IAccountService
         var newUser = (User)accountCreate;
         var hashResult = PasswordHasher.Hash(accountCreate.Password);
         newUser.Salt = hashResult.Salt;
-        newUser.PasswordHash = hashResult.Hash;
-        newUser.ImagePath = $"{_fileService.ImageFolderName}/IMG_bf6218f9-dd17-44ce-8d39-e9b9d374a903.jpg";
+        newUser.PasswordHash = hashResult.Hash;        
+        newUser.ImagePath = await _fileService.SaveImageAsync(accountCreate.Image);
         newUser.CreatedAt = DateTime.UtcNow;
         newUser.UpdatedAt = DateTime.UtcNow;
 

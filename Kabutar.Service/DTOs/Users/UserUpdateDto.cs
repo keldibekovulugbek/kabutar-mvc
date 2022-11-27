@@ -1,7 +1,6 @@
 ﻿using Kabutar.Attributes;
 using Kabutar.Domain.Entities;
 using Kabutar.Service.Attributes;
-using RaqamliAvlod.At
 using System.ComponentModel.DataAnnotations;
 
 namespace Kabutar.Service.Dtos

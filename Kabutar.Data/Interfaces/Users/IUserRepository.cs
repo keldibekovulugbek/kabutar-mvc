@@ -1,5 +1,4 @@
 ﻿using Kabutar.Domain.Entities;
-using Kabutar.DataAccess.Interfaces;
 
 namespace Kabutar.Data.Interfaces.Users
 {

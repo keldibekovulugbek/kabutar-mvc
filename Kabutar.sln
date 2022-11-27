@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.32804.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kabutar.WebApi", "Kabutar\Kabutar.WebApi.csproj", "{71E483A4-A9CB-4AC8-B6EE-482E6E908F10}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A1FD8D0C-3D81-4BA8-AE98-7C6FC83EEEFA} = {A1FD8D0C-3D81-4BA8-AE98-7C6FC83EEEFA}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kabutar.Domain", "Kabutar.Domen\Kabutar.Domain.csproj", "{6879E165-9F5E-4C90-9F53-C01E0397967B}"
 EndProject
